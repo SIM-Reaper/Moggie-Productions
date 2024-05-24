@@ -127,7 +127,7 @@ public class ThirdPersonController : MonoBehaviour
     {
         // Set the ray origin to just slightly above the player's feet
         Vector3 rayOrigin = this.transform.position + Vector3.up * 0.1f;
-        float rayLength = 0.3f; // Adjust the length to ensure it reaches the ground
+        float rayLength = 10f; // Adjust the length to ensure it reaches the ground
 
         // Cast the ray downward to detect the ground
         bool grounded = Physics.Raycast(rayOrigin, Vector3.down, out RaycastHit hit, rayLength, groundLayer);
