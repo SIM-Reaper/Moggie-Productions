@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68278064c7c39e346b3dd8cd67769cc2, type: 3}
+  m_Name: BlueGem13
+  m_EditorClassIdentifier: 
+  lootObject: {fileID: 1117196565652623130, guid: 27c7916ab7bdd6743b39dc7b38380690, type: 3}
+  lootName: BlueGem13
+  dropChance: 86.71
